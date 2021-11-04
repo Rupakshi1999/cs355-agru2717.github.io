@@ -1,4 +1,4 @@
-fetch("../HTML/NavBar.html")
+fetch("../HTML/InstructorView/NavBar.html")
   .then((res) => res.text())
   .then((text) => {
     let oldelem = document.querySelector("script#replace_with_navbar");
