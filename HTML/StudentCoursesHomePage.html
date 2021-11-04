@@ -12,46 +12,38 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="../Style.css" />
 </head>
-<style>
-  .flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: RebeccaPurple;
-  }
-
-  .flex-container>div {
-    background-color: #f1f1f1;
-    border-color: black;
-    margin: 10px;
-    padding: 20px;
-  }
-</style>
 
 <body>
   <header>
-    <h1>Student Courses</h1>
-    <nav>
-      <a href="">Home</a> &nbsp; <a href="">Profile</a> &nbsp;
-      <a href="StudentTestTaking.html">Take Math Test</a>
-      <a href="StudentTestTaking.html">Take English Test</a>
-    </nav>
+    <nav class="navbar navbar-default navbar-expand-lg navbar-light">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="StudentCoursesHomePage.html">All Courses</a>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="Profile.html">Profile</a> &nbsp;</li>
+        </ul>
+      </div>
   </header>
   <div class="container">
     <div class="row height d-flex justify-content-center align-items-center">
       <div class="col-md-8">
         <div class="search"> <i class="fa fa-search"></i>
-          <input id="search-input" type="text" class="form-control" placeholder="Search">
-          <button id="search-button" class="btn btn-primary">Search</button>
+          <input id="search-input" type="text" class="form-control" placeholder="Search Courses to enroll">
+          <button id="search-button" onClick="location.href='EnrollIncourses.html'"
+            class="btn btn-primary">Search</button>
         </div>
       </div>
     </div>
   </div>
+  <!-- Add js to this file to get the changes by what is entered in search bar
   <script src="../js/Search.js"></script>
+  -->
   <div class="flex-container">
     <div class="course1">
-      <h2>Geometry</h2>
+      <a href="StudentCoursePage.html">
+        <h2>Mathematics</h2>
+      </a>
       <h3>Professor Jane Smith</h3>
-      <img src="image" alt="Picture of a Professor" />
+      <img src="../assets/img/Geomatry.jpg" width=100px alt="Picture of a Professor" />
       <ol>
         Assignments Due Today
         <li>Math 101 Lecture Reading</li>
@@ -64,7 +56,9 @@
       </ol>
     </div>
     <div class="course2">
-      <h2>Geology</h2>
+      <a href="StudentCoursePage.html">
+        <h2>geology</h2>
+      </a>
       <h3>Professor Janet Smithson</h3>
       <img src="image" alt="Picture of a Professor" />
       <ol>
@@ -80,7 +74,9 @@
     </div>
 
     <div class="course3">
-      <h2>Geography</h2>
+      <a href="StudentCoursePage.html">
+        <h2>Geography</h2>
+      </a>
       <h3>Professor Minni Max</h3>
       <img src="image" alt="Picture of a Professor" />
       <ol>
