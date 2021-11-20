@@ -50,6 +50,9 @@ Clicking this navbar item opens the courses/home page (https://rupakshi1999.gith
 Clicking on a course from the courses/home page opens the course page (https://rupakshi1999.github.io/cs355-agru2717.github.io/HTML/StudentView/StudentCoursePage.html), with more specific information for the student, as well as a navbar that provides links to the student's profile page, taking lesson questions/quizzes/exams (https://rupakshi1999.github.io/cs355-agru2717.github.io/HTML/StudentView/StudentTestTaking.html), and a "My Courses" button to once again access the courses/home page for a student. 
 ##### Clicking Admin View from the NavBar in the Landing Page:
 Clicking this navbar item opens the admin view (https://rupakshi1999.github.io/cs355-agru2717.github.io/HTML/AdminView/AdminView.html), which we plan to connect to a database as the semester progresses.
+
+##### CSS In Our Website:
+Seeing as frameworks such as Bootstrap is permissible to use in our project, we decided to implement Bootstrap early on in our project in order to streamline the process. Our CSS file can be located in our file called "style.css," located in the ChalkBoard directory. We've checked for responsiveness as well as make sure no content is hidden from users.  
 #### What we learned:
 11/02-03/2021
 "I specifically learned a lot about git due to Rupakshi. Some keywords include "git branch", "git checkout -b <name>", and in general "git status" to check the changes of my repositories (in the origin and local repo). I also struggled in finding a way to edit HTML text for the "TeacherCreatingTest" page, because I did not even realize text could be editable after being placed in the DOM tree, so that was fascinating, realizing that text could be manipulated using basic HTML.
