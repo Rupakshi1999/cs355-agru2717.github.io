@@ -1,23 +1,7 @@
 # ChalkBoard
-
-### The link below directs users to the ChalkBoard HTML files.
 https://github.com/Rupakshi1999/cs355-agru2717.github.io/tree/main/ChalkBoard/HTML
 
-## How to use the website
-1. Instructor and students can sign up using the sign up buttons on the first page
-2. Once the user have signed up they can go back to the first page to login 
-3. How to login: 
-         On larger screens: Click on the login button in the header, a dropdown will open, enter your username and password, and finally click on login to acess your courses
-         On smaller screens: Click on the box with two lines at the top right to screen to access the login dropdown button
-4. Once loged in: at this stage there is no backend so we have to manually pick which view do we want to acess
-         There is an option to go back on the landing page, access instructor view, student view or admin view
-5. Instructor and student view opens with all the classes displayes in flex boxes
-6. To acess each class user can click on the class name
-7. If a student searches a class that they are not currently enrolled in, they will be able given an option to enroll in that class
-8. To enroll in a class they can just click on Enroll form by clicing on "Enroll" below class name
-9. An instructor can create or drop a course by clicking on specific options given on the header of instructor view
-
-
+## The link above directs users to the ChalkBoard HTML files.
 
 ## Team
 Rupakshi Aggarwal, Hafsah Kamal
@@ -54,6 +38,21 @@ Profile settings can also be changed, such as password and username (Image 2).
 Students may add or drop a course, and Instructors can add or delete courses, 
 add instructors to their courses, or remove themselves from a course (Image 7). --Hafsah Kamal
 
+#### Features of ChalkBoard
+ChalkBoard consists of different webpages to allow a seamless online learning experience. As of now, it contains:
+A login page: (https://rupakshi1999.github.io/cs355-agru2717.github.io/index.html) in which users have the option of accessing their student/instructor account through the login button, or signing up (https://rupakshi1999.github.io/cs355-agru2717.github.io/HTML/SignUp.html).
+A landing page: (https://rupakshi1999.github.io/cs355-agru2717.github.io/HTML/Index.html?submit=Login) which is used to connect all pages (student, instructor and admin view) together temporarily. This page can be accessed by clicking "login" in from the index.html.
+##### Clicking All Courses: Instructor From the NavBar in the Landing Page:
+Clicking this navbar item opens the courses/home page (https://rupakshi1999.github.io/cs355-agru2717.github.io/HTML/InstructorView/InstructorCoursesHomePage.html) for an instructor and displays currently taught courses (ex. Geology, Geography, Math). This page also contains a search bar, as well as a navbar which links the instructor to their profile, and provides clear options to create/delete (drop) a course in other pages. 
+Clicking on a course from the courses/home page opens the course page (https://rupakshi1999.github.io/cs355-agru2717.github.io/HTML/InstructorView/InstructorCourseHomePage.html), with more specific information for the instructor, as well as a navbar that provides links to the instructor's profile page, creating/grading tests, and a "My Courses" button to once again access the courses/home page for an instructor. 
+##### Clicking All Courses: Student from the NavBar in the Landing Page:
+Clicking this navbar item opens the courses/home page (https://rupakshi1999.github.io/cs355-agru2717.github.io/HTML/StudentView/StudentCoursesHomePage.html) for a student and displays currently taught courses (ex. Geology, Geography, Math). This page also contains a search bar, as well as a navbar which links the student to their profile.
+Clicking on a course from the courses/home page opens the course page (https://rupakshi1999.github.io/cs355-agru2717.github.io/HTML/StudentView/StudentCoursePage.html), with more specific information for the student, as well as a navbar that provides links to the student's profile page, taking lesson questions/quizzes/exams (https://rupakshi1999.github.io/cs355-agru2717.github.io/HTML/StudentView/StudentTestTaking.html), and a "My Courses" button to once again access the courses/home page for a student. 
+##### Clicking Admin View from the NavBar in the Landing Page:
+Clicking this navbar item opens the admin view (https://rupakshi1999.github.io/cs355-agru2717.github.io/HTML/AdminView/AdminView.html), which we plan to connect to a database as the semester progresses.
+
+##### CSS In Our Website:
+Seeing as frameworks such as Bootstrap is permissible to use in our project, we decided to implement Bootstrap early on in our project in order to streamline the process. Our CSS file can be located in our file called "style.css," located in the ChalkBoard directory. We've checked for responsiveness as well as make sure no content is hidden from users.  
 #### What we learned:
 11/02-03/2021
 "I specifically learned a lot about git due to Rupakshi. Some keywords include "git branch", "git checkout -b <name>", and in general "git status" to check the changes of my repositories (in the origin and local repo). I also struggled in finding a way to edit HTML text for the "TeacherCreatingTest" page, because I did not even realize text could be editable after being placed in the DOM tree, so that was fascinating, realizing that text could be manipulated using basic HTML.
